@@ -4,7 +4,7 @@
   --green: #27ae60;
   --black: #192a56;
   --light-color: #666;
-  --box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+  --box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
 }
 
 * {
@@ -22,12 +22,12 @@
 html {
   font-size: 62.5%;
   overflow-x: hidden;
-  scroll-padding-top: 5.5rem;
+  scroll-padding-top: 85px;
   scroll-behavior: smooth;
 }
 
 section {
-  padding: 2rem 9%;
+  padding: 24px 9%;
 }
 
 section:nth-child(even) {
@@ -37,27 +37,27 @@ section:nth-child(even) {
 .sub-heading {
   text-align: center;
   color: var(--green);
-  font-size: 2rem;
-  padding-top: 1rem;
+  font-size: 24px;
+  padding-top: 16px;
 }
 
 .heading {
   text-align: center;
   color: var(--black);
-  font-size: 3rem;
-  padding-bottom: 2rem;
+  font-size: 24px;
+  padding-bottom: 30px;
   text-transform: uppercase;
 }
 
 .btn {
-  margin-top: 1rem;
+  margin-top: 12px;
   display: inline-block;
-  font-size: 1.7rem;
+  font-size: 18px;
   color: #fff;
   background: var(--black);
-  border-radius: 0.5rem;
+  border-radius: 8px;
   cursor: pointer;
-  padding: 0.8rem 3rem;
+  padding: 7px 18px;
 }
 
 .btn:hover {
@@ -255,15 +255,6 @@ header .icons #menu-bars {
   color: #fff;
 }
 
-/* .dishes .box-container .box .fa-heart{
-    right: -15rem;
-}
-
-
-.dishes .box-container .box .fa-eye{
-    left: -15rem;
-} */
-
 .dishes .box-container .box:hover .fa-heart {
   right: 1.5rem;
 }
@@ -385,14 +376,8 @@ header .icons #menu-bars {
   height: 100%;
   width: 100%;
   border-radius: 0.5rem;
-  /* object-fit: contain; */
   background-size: cover;
 }
-/* 
-.menu .box-container .box .image .img-2{
-    width: 110%;
-    height: 110%;
-} */
 
 .menu .box-container .box .image .fa-heart {
   position: absolute;
