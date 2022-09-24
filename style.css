@@ -219,10 +219,6 @@ header .icons #menu-bars {
   line-height: 1.5;
 }
 
-.swiper-pagination-bullet-active {
-  background: var(--green);
-}
-
 .dishes .box-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(28rem, 1fr));
@@ -465,7 +461,7 @@ header .icons #menu-bars {
   color: #ccc;
 }
 
-.review .slide .user {
+.review . .user {
   display: flex;
   gap: 1.5rem;
   align-items: center;
